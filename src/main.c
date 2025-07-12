@@ -2,8 +2,6 @@
 #include "driver/spi_master.h"
 #include "esp_log.h"
 #include "string.h"
-#include "math.h"
-#include "esp_psram.h"
 #include "time.h"
 
 void send_receive_task(void* param) {
